@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class TestPackageAppConfig(AppConfig):
+class Dj7nRagChatModelConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'test_package_app'
+    name = 'dj7n_rag_chat_model'
