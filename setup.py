@@ -7,6 +7,14 @@ setup(
     include_package_data=True,
     install_requires=[
         "django>=4.2,<5.0",
+        "langchain>=0.3.26",
+        "langchain-community>=0.3.26",
+        "faiss-cpu>=1.11.0",
+        "sentence-transformers>=4.1.0",
+        "python-docx>=1.2.0",
+        "pymupdf>=1.26.1",
+        "langchain-google-genai>=2.0.10",
+        "google-generativeai>=0.8.5"
     ],
     author="Bay Nguyen",
     author_email="baybknguyen@gmail.com",
